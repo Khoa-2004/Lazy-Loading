@@ -1,31 +1,53 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
+/* Make sure the body takes full height and removes margins */
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
 }
 
-.App {
-  text-align: center;
-  padding: 40px;
+/* Full-width header bar */
+h1 {
+  width: 100%;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 24px 32px;
+  margin: 0;
+  text-align: left;
+  font-size: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+/* Center nav inside a container */
 nav {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+  background-color: #e8efff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
+/* Button styling */
 button {
-  margin: 0 10px;
-  padding: 10px 16px;
+  padding: 12px 24px;
   font-size: 16px;
-  cursor: pointer;
-  background-color: gray;
+  background-color: #2563eb;
   color: white;
   border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #1e40af;
+}
+
+/* Content area */
+.app-content {
+  padding: 32px;
+  min-height: calc(100vh - 145px); /* Adjust based on header + nav height */
 }

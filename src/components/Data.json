@@ -1,52 +1,72 @@
 [
-  { "userId": 1, "id": 1, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 2, "title": "Yo gurt", "body": "gurt: yo, sybau. sybau: this gurt dude always has smth to say brh js stfu fr icl ts pmo" },
-  { "userId": 1, "id": 3, "title": "Yo gurt", "body": "gurt: yo, sybau. sybau: this gurt dude always has smth to say brh js stfu fr icl ts pmo" },
-  { "userId": 1, "id": 4, "title": "Yo gurt", "body": "gurt: yo, sybau. sybau: this gurt dude always has smth to say brh js stfu fr icl ts pmo" },
-  { "userId": 1, "id": 5, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 6, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 7, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 8, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 9, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 10, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 11, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 12, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 13, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 14, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 15, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 16, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 17, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 18, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 19, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 20, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 21, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 22, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 23, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 24, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 25, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 26, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 27, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 28, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 29, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 30, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 31, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 32, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 33, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 34, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 35, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 36, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 37, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 38, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 39, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 40, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 41, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 42, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 43, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 44, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 45, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 46, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 47, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 48, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 49, "title": "Yo gurt", "body": "gurt: yo, sybau" },
-  { "userId": 1, "id": 50, "title": "Yo gurt", "body": "gurt: yo, sybau" }
+  {
+    "id": 1,
+    "title": "Title 1",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "/pic/1.jpg",
+    "video": "./vid/vid1.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Title 2",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/2.jpg",
+    "video": "./vid/vid2.mp4"
+  },
+  {
+    "id": 3,
+    "title": "Title 3",
+    "body":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/3.jpg",
+    "video": "./vid/vid3.mp4"
+  },
+  {
+    "id": 4,
+    "title": "Title 4",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/4.jpg",
+    "video": "./vid/vid4.mp4"
+  },
+  {
+    "id": 5,
+    "title": "Title 5",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/5.jpg",
+    "video": "./vid/vid5.mp4"
+  },
+  {
+    "id": 6,
+    "title": "Title 6",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/6.jpg",
+    "video": "./vid/vid6.mp4"
+  },
+  {
+    "id": 7,
+    "title": "Title 7",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/7.jpg",
+    "video": "./vid/vid7.mp4"
+  },
+  {
+    "id": 8,
+    "title": "Title 8",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/8.jpg",
+    "video": "./vid/vid8.mp4"
+  },
+  {
+    "id": 9,
+    "title": "Title 9",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/9.jpg",
+    "video": "./vid/vid9.mp4"
+  },
+  {
+    "id": 10,
+    "title": "Title 10",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "pic/10.jpg",
+    "video": "./vid/vid10.mp4"
+  }
 ]

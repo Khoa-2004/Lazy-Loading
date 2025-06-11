@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { Suspense, useState, useEffect, useRef } from "react";
 import LazyLoad from "react-lazyload";
 import "./Home.css";
 import Data from "../Data.json";
@@ -48,18 +48,23 @@ const Loading = () => (
   </div>
 );
 
-// Component hien thi tung post, đo thời gian render từng post
+// Component hien thi tung post, do tg render tung post
 // React.memo dung de render lai khi cac attr thay doi
 const Post = React.memo(({ title, body, image, video }) => {
   // Tao ref de log tg render (do hieu nang)
   const startRef = useRef(performance.now());
   useEffect(() => {
     const end = performance.now();
-    console.log(`Post "${title}" rendered in ${(end - startRef.current).toFixed(2)} ms`);
+    console.log(
+      `Post "${title}" rendered in ${(end - startRef.current).toFixed(2)} ms`
+    );
   }, [title]);
   return (
     //Layout
-    <div className="news-item" style={{ flexDirection: "column", alignItems: "flex-start" }}>
+    <div
+      className="news-item"
+      style={{ flexDirection: "column", alignItems: "flex-start" }}
+    >
       <div className="news-text" style={{ marginBottom: 16, width: "100%" }}>
         <h3>{title}</h3>
         <p>{body}</p>
@@ -79,13 +84,26 @@ const Post = React.memo(({ title, body, image, video }) => {
             <img
               src={image}
               alt="title-img"
-              style={{ width: 400, height: 320, borderRadius: 16, objectFit: "cover", boxShadow: "0 3px 10px rgba(0,0,0,0.06)" }}
+              style={{
+                width: 400,
+                height: 320,
+                borderRadius: 16,
+                objectFit: "cover",
+                boxShadow: "0 3px 10px rgba(0,0,0,0.06)",
+              }}
             />
           )}
           {video && (
             <video
               controls
-              style={{ width: 400, height: 320, borderRadius: 16, objectFit: "cover", background: "#000", boxShadow: "0 3px 10px rgba(0,0,0,0.06)" }}
+              style={{
+                width: 400,
+                height: 320,
+                borderRadius: 16,
+                objectFit: "cover",
+                background: "#000",
+                boxShadow: "0 3px 10px rgba(0,0,0,0.06)",
+              }}
             >
               {/*Chi thich hop voi mp4, ko phai thi dong duoi*/}
               <source src={video} type="video/mp4" />
@@ -106,22 +124,19 @@ const Home = () => {
   const loaderRef = useRef(null);
   // Tao IntersectionObserver de coi loaderRef co trong kg man hinh ch
   // Khi scroll den cuoi man hinh sau 500ms se hien thi so lg Post len 1
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setTimeout(() => {
-            setVisibleCount((prev) =>
-              prev < Data.length ? prev + 1 : prev
-            );
+            setVisibleCount((prev) => (prev < Data.length ? prev + 1 : prev));
           }, 500);
         }
       },
       { threshold: 1 }
-    )
-    if (loaderRef.current)
-      observer.observe(loaderRef.current);
+    );
+    if (loaderRef.current) observer.observe(loaderRef.current);
     // Neu bi huy/reload thi tat
     return () => observer.disconnect();
   }, []);
@@ -136,7 +151,9 @@ const Home = () => {
           <div key={item.id}>
             {/* Boc Post = ErrorBoundary de bat loi neu LL sai */}
             <ErrorBoundary>
-              <Post {...item} />
+              <Suspense>
+                <Post {...item} />
+              </Suspense>
             </ErrorBoundary>
             <div className="divider-line" />
           </div>
